@@ -1,0 +1,64 @@
+body {
+	display:flex;
+	flex-flow:column;
+	width:80%;
+	margin: 100px auto 0px auto;
+	hr{
+		border: 0;
+  		clear:both;
+  		display:block;
+  		width: 96%;               
+ 		background-color:#d6d6c2;
+  		height: 1px;
+	}
+	.small_hr{
+		width:70%;
+		margin-bottom:30px;
+	}
+	#content_header{
+		h1{
+			width:70%;
+			margin:auto;
+			font-weight:normal;
+			span{
+				font-weight:bold;
+			}
+		}
+
+	}
+	#content_links{
+		display:flex;
+		justify-content:center;
+		width:70%;
+		margin:50px auto 50px auto;
+		img{
+			padding:10px;
+			width:30px;
+		}
+
+	}
+	#content_work{
+		display:flex;
+		flex-flow:row;
+		justify-content:space-between;
+		#content_workplaces{
+			.company{
+				font-weight:bold;
+			}
+			.company_job{
+				font-style:italic;
+			}
+		}
+		#content_workplaces{
+			font-style:none;
+			
+			
+		}
+
+
+	}
+
+
+
+
+}
